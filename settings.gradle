@@ -9,3 +9,4 @@
  */
 
 rootProject.name = 'minimal-android'
+include ':app'
