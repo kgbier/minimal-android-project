@@ -2,6 +2,11 @@ plugins {
     id 'com.android.application'
 }
 
+repositories {
+    google()
+    mavenCentral()
+}
+
 android {
     compileSdk 30
 
