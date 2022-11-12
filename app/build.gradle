@@ -12,5 +12,7 @@ android {
 
     defaultConfig {
         applicationId "dev.kgbier.app"
+        minSdk 21
+        targetSdk 30
     }
 }
