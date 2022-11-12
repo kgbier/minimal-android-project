@@ -5,3 +5,15 @@
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/7.3/samples
  * This project uses @Incubating APIs which are subject to change.
  */
+
+buildscript {
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.0'
+    }
+}
